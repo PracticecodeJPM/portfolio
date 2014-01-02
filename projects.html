@@ -2,7 +2,7 @@
 <html>
   <head>
 	<title>John Mitsch: Web Designer/Carb Stylist</title>
-	<link rel="stylesheet" type="text/css" href="projects.css">
+	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Open+Sans|Roboto:400,900,700,300|Droid+Sans:400,700|PT+Sans+Narrow:400,700|Ubuntu:400,700|Roboto+Condensed:400,700|Coming+Soon' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
@@ -11,19 +11,28 @@
   <body>
 	<p id="back"><a href="portfolio.html">Back</a></p>
   	<h1>Past Projects</h1>
-	<ul>
-		<li>
-			<iframe class="frame" src="http://johnpmitsch.github.io/mappedOut/mappedOut.html"></iframe>
+	<div id="container">
+		<div class="screenshot">
+			<a target="_blank" href="http://johnpmitsch.github.io/mappedOut/mappedOut.html"><img src="pics/mappedout.png" /></a>
+		</div>
+		<div class="description">
 			<h2>mappedOut</h2>
-		</li>
-		<li>
-			<iframe class="frame" src="http://johnpmitsch.github.io/HotOrCold/index.html"></iframe>
-			<h2>Hot Or Cold</h2>
-		</li>
-		<li>
-			<iframe class="frame" src="http://johnpmitsch.github.io/ShoppingList/"></iframe>
+			<p>Javascript app used to search and view instagram hashtags around the globe.</p>
+		</div>
+		<div class="screenshot">
+			<a target="_blank" href="http://johnpmitsch.github.io/ShoppingList/index.html"><img src="pics/shoppinglist.png"/></a>
+		</div>
+		<div class="description">
 			<h2>Shopping List</h2>
-		</li>
-	</ul>
+			<p>Create and edit a grocery list</p> 
+		</div>
+		<div class="screenshot">
+			<a target="_blank" href="http://johnpmitsch.github.io/HotOrCold/index.html"><img src="pics/hotorcold.png"/></a>
+		</div>
+		<div class="description">
+			<h2>Hot or Cold Game</h2>
+			<p>Fun game to guess a number between 1 and 100</p>
+		</div>
+	</div>
   </body>
  </html>
