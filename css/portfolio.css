@@ -133,6 +133,8 @@ li {
 		width:150px;
 		height:100px;
 		font-size:.75em;
+		padding-top:10px;
+		padding-bottom:15px;
 	}
 	#john {
 		margin:0px;
