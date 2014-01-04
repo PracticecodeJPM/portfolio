@@ -112,7 +112,9 @@ li {
 	}
 
 @media only screen (min-width: 481px) and (max-width: 768px) {
-
+	html {
+		background: url('breadpictwosmall.jpg') no-repeat center center fixed; 
+		}
     h1 { 
 		font-size: 3em;
 	}
